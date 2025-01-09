@@ -92,7 +92,7 @@ $tb-custom-blue: (
 );
 
 // Update the accent palette to use the custom blue
-$tb-accent: mat.define-palette($tb-custom-blue);
+$tb-accent: mat.m2-define-palette($tb-custom-blue);
 
 
 $background: (background: map_get(mat.$m2-grey-palette, 200));
