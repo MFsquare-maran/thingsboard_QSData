@@ -181,7 +181,7 @@
     "user-lockout-notification-email": "Hvis brugerkontoen spærres, sendes en meddelelse til e-mail",
     "domain-name": "Domænenavn",
     "domain-name-unique": "Domænenavn og protokol skal være entydige.",
-    "error-verification-url": "Et domænenavn må ikke indeholde symbolerne '/' og ':'. Eksempel: thingsboard.io",
+    "error-verification-url": "Et domænenavn må ikke indeholde symbolerne '/' og ':'. Eksempel: MFsquare.ch",
     "oauth2": {
       "access-token-uri": "Adgangstoken URI",
       "access-token-uri-required": "Adgangstoken URI er påkrævet.",
@@ -3445,7 +3445,7 @@
     "prohibit-different-url-hint": "Denne indstilling skal aktiveres for produktionsmiljøer. Kan forårsage sikkerhedsproblemer ved deaktivering",
     "help-link-base-url": "Basis-URL for hjælpelinks",
     "enable-help-links": "Aktivér hjælpelinks",
-    "error-verification-url": "Et domænenavn må ikke indeholde symbolerne '/' og ':'. Eksempel: thingsboard.io",
+    "error-verification-url": "Et domænenavn må ikke indeholde symbolerne '/' og ':'. Eksempel: MFsquare.ch",
     "show-platform-name-version": "Vis platformnavn og version",
     "platform-name": "Platformnavn",
     "platform-version": "Platformversion",

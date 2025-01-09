@@ -232,7 +232,7 @@
         "domain-name": "اسم النطاق",
         "domain-name-unique": "يجب أن يكون اسم النطاق والبروتوكول فريدين.",
         "domain-name-max-length": "يجب أن يكون اسم النطاق أقل من 256",
-        "error-verification-url": "لا ينبغي أن يحتوي اسم النطاق على الرموز '/' و ':'. مثال: thingsboard.io",
+        "error-verification-url": "لا ينبغي أن يحتوي اسم النطاق على الرموز '/' و ':'. مثال: MFsquare.ch",
         "connection-settings": "إعدادات الاتصال",
         "oauth2": {
             "access-token-uri": "عنوان URI لرمز الوصول",

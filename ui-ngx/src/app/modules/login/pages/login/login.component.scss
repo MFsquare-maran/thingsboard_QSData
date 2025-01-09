@@ -19,10 +19,14 @@
 :host {
   display: flex;
   flex: 1 1 0;
+  background: url('image1.jpg') center center no-repeat;
+  background-size: cover; /* or "contain" based on your preference */
+
   .tb-login-content {
     margin-top: 36px;
     margin-bottom: 76px;
-    background-color: #eee;
+    background-color: #eee0;
+    
     .tb-login-form {
       @media #{$mat-gt-xs} {
         width: 550px !important;
@@ -85,4 +89,3 @@
     }
   }
 }
-

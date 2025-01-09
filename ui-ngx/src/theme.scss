@@ -55,7 +55,45 @@ $tb-mat-indigo: (
 );
 
 $tb-primary: mat.m2-define-palette($tb-mat-indigo);
-$tb-accent: mat.m2-define-palette(mat.$m2-deep-orange-palette);
+
+
+// Define a custom palette with #36AACF
+$tb-custom-blue: (
+  50: #d3edf5,
+  100: #a8dcef,
+  200: #7dcae9,
+  300: #52b8e3,
+  400: #36aacf, // Main color
+  500: #36aacf, // Main color
+  600: #3199ba,
+  700: #2c89a6,
+  800: #267892,
+  900: #20677d,
+  A100: #a8efff,
+  A200: #7de4ff,
+  A400: #52d9ff,
+  A700: #36ceff,
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: white,
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+    A100: rgba(black, 0.87),
+    A200: rgba(black, 0.87),
+    A400: rgba(black, 0.87),
+    A700: rgba(black, 0.87),
+  )
+);
+
+// Update the accent palette to use the custom blue
+$tb-accent: mat.define-palette($tb-custom-blue);
+
 
 $background: (background: map_get(mat.$m2-grey-palette, 200));
 
